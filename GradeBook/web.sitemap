@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode  title="Index"  description="Back to courses" url="~/Main/Index.aspx">
+    <siteMapNode title="Course"  description="Course details" url="~/Main/Course.aspx">
+      <siteMapNode  title="Manage Student" description="Manage Students" url="~/Main/Manage_Students.aspx">
+        <siteMapNode title="Student" description="Student info" url="~/Main/Student.aspx" />
+      </siteMapNode>
+
+      <siteMapNode title="Grading" description="Manage the grades" url="~/Main/Grading.aspx">
+
+      </siteMapNode>
+
+
+      <siteMapNode title="Manage Course" description="Manage said course" url="~/Main/Manage_Course.aspx">
+        <siteMapNode title="Assignment" description="Manage an assignment" url="~/Main/Assignment.aspx" />
+      </siteMapNode>
+
+      <siteMapNode title="Report" description="Generate a report" url="~/Main/Report.aspx">
+
+      </siteMapNode>
+
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

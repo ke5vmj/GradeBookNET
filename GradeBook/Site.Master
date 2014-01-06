@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GradeBook.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<asp:ContentPlaceHolder ID="ScriptContent" runat="server">
+
+</asp:ContentPlaceHolder>
+    <title>GradeBook</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="logo">
+                <img alt="Logo" src="/Images/GradeBookLogo.png" />
+            </div>
+
+            <div id="logged_in">
+                <form id="masterForm" runat="server" >
+                     <asp:Label
+                        ID="lblName"
+                        runat="server" />
+
+                    <asp:LoginStatus
+                        id="loginStatus"
+                        runat="server" />
+            </div>
+        </div>
+
+        <div id="content">
+            <asp:ContentPlaceHolder ID="SiteMapContent" runat="server">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+            </asp:ContentPlaceHolder>
+
+            <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">       
+                </form>
+                <p class="left">GradeBook Manager&copy;</p>
+                <p class="right">Edward Radau</p>                
+        </div>
+    </div>
+</body>
+</html>

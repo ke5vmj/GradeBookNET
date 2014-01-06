@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GradeBook/Utils/DataHandler.cs">
+    <Files>
+      <File FileName="GradeBook/Main/Web.config" Line="10" Column="17" />
+      <File FileName="GradeBook/Main/Manage_Students.aspx" Line="1" Column="1" />
+      <File FileName="GradeBook/Main/Manage_Students.aspx.cs" Line="11" Column="2" />
+      <File FileName="GradeBook/Utils/DataHandler.cs" Line="5" Column="29" />
+      <File FileName="GradeBook/Utils/SessionManager.cs" Line="72" Column="14" />
+      <File FileName="GradeBook/Web.config" Line="12" Column="49" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

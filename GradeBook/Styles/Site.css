@@ -1,0 +1,283 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    margin: 0px;
+    padding: 0px;
+    background: url('pattern_036.gif') repeat;
+}
+
+a 
+{
+    outline: none;
+    text-decoration: none;
+}
+
+a img
+{
+    outline: none;   
+}
+
+img
+{
+    border: 0;   
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+    color: Black;
+    
+}
+
+a:hover
+{
+    text-decoration: none;
+    
+}
+
+p
+{
+    
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+#wrapper 
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+    padding-bottom: 1px;
+    background: #FFFFFF;
+    border: 1px solid black;
+}
+
+#header 
+{
+    border-bottom: 3px solid black;
+    height: 104px;
+    
+}
+
+#header #logo 
+{
+    width: 50%;
+    height: 100px;
+    float: left;
+    
+}
+
+#course_panel
+{    
+    clear: left;
+    width: 20%;
+    padding: 4px;    
+    border: dashed 1px black;  
+}
+
+#course_listing td
+{
+    padding: 10px;
+}
+
+/* Modify the styles of most tables */
+.gradebook_table
+{
+    margin-bottom: 8px;
+    width: 40%;
+    border-collapse: collapse;
+    border-style: none;
+}
+
+.gradebook_table th
+{
+    text-align: left;
+    padding: 3px 2px;
+    border-style: none;
+    border-bottom: 2px solid black;
+}
+
+.gradebook_table td
+{
+    padding: 3px 2px;
+    border-style: none;
+}
+/* END TABLE */
+
+
+
+/* dotted_section and dotted_table go together. I want all the tables within them to fit the width */
+.dotted_section
+{
+    clear: left;
+    padding: 4px;
+    width: 500px;
+    background: #E3E3DE;
+    border: dashed 1px black;
+}
+
+.dotted_table
+{
+    width: 100%;    
+}
+
+.grade_area
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+
+#login
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#header #logged_in
+{
+    width: 50%;
+    height: 100px;
+    float:right;
+    text-align: right;    
+}
+
+.error
+{
+    color: Red;
+}
+
+.login_wizard
+{
+    background-color: #B3B3A7;
+    padding: 4px;
+    border: solid 3px black;
+}
+
+.login_title
+{
+    color: White;
+    background: black;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.login_instructions
+{
+    text-align: left;
+    padding: 10px;
+}
+
+.login_button
+{
+    border: 1px solid black;
+    background: #B3B3A7;
+    padding: 3px;
+    cursor: pointer;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;    
+}
+
+.register_wizard
+{    
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: #B3B3A7;
+    border: solid 3px black;
+}
+
+.register_title
+{
+    background-color: #363632;
+    color: White;
+    font-weight: bold;    
+}
+
+.register_button
+{
+    border: solid 1px black;
+    padding: 3px;
+}
+
+
+
+#content 
+{    
+    width: 1280px;
+    padding: 8px;
+    
+}
+
+#left_side
+{
+    float: left;
+    width: 341px;
+    clear: both;
+}
+
+#right_side
+{
+    float: right;
+    width: 341px;
+    clear: both;
+}
+
+/* Footer related stuff */
+
+.left
+{
+    float: left;  
+}
+
+.right
+{ 
+    float: right;
+}
+
+#footer
+{
+    height: 30px;
+    font-size: small;
+    font-style: italic;    
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+
+
+/* MISC  
+----------------------------------------------------------*/
+
